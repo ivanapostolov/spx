@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-wrapper {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, #EEEEEE 70%, #FFD54F 30%);
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----Header Style-----*/
+
+.header {
+    height: 10%;
+    width: 100%;
+}
+
+.title {
+    color: #1E226F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+/*-----Main Style-----*/
+
+.main {
+    height: 80%;
+    width: 100%;
+}
+
+.stage {
+    height: 100%;
+    width: 90%;/*calc(1.15 * 100vh);*/
+    background-image: url('../../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #1E226F;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/*-----Footer Style-----*/
+
+.footer {
+    height: 10%;
+    width: 100%;
+}
+
+.btn {
+    border-width: 2px;
+    border-style: solid;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline:0;
+}
+
+.start-btn {
+    border-color: #FFD54F;
+    color: #FFD54F;
+}
+
+.start-btn:hover {
+    background: #FFD54F;
+    color: white;
+}
+
+.test{
+    width: 90%;
+    height:100%;
+}
+
+.test1{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: calc(12.5% - 6px);
+    height:100%;
+    border: 1px solid black;
+}
